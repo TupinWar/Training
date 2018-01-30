@@ -1,0 +1,28 @@
+<div class="x_panel">
+    <div class="x_content">
+      <br>
+      <form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+
+        <div class="form-group">
+          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">First Name <span class="required">*</span>
+          </label>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <input (change)="firstNameChange.emit(this.firstName)" type="text" name = "first-name" id="first-name" required="required" class="form-control col-md-7 col-xs-12" [(ngModel)]="firstName">
+          </div>
+        </div>
+        <!-- <div class="form-group">
+          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Last Name <span class="required">*</span>
+          </label>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12" [(ngModel)]="selectedUser.lastName">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="user-name" class="control-label col-md-3 col-sm-3 col-xs-12">User Name</label>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <input id="user-name" name = "user-name" class="form-control col-md-7 col-xs-12" type="text" name="user-name" [ngModel]="selectedUser.userName">
+          </div>
+        </div> -->
+      </form>
+    </div>
+  </div>
